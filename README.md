@@ -76,7 +76,7 @@ Stop Time	 2023-06-15 20:34:21
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
 
-## NIST
+## Approach to Handling High-Priority Incidents with NIST Guidelines and Security Controls
 To handle high-priority incidents effectively, I followed the guidelines provided by NIST 800-61 (Revision 2) and implemented the security controls outlined in NIST SP 800-53 (Revision 4). Here's how I approached the process:
 
 1. First, I made the necessary preparations by setting up a log analytics workspace, configuring Azure Sentinel, and establishing alerts to detect incidents. To ensure a robust and secure environment, I implemented security controls from NIST SP 800-53.
@@ -84,9 +84,11 @@ To handle high-priority incidents effectively, I followed the guidelines provide
 3. To streamline my incident response efforts, I utilized an incident response playbook based on NIST 800-61 (Revision 2). This playbook allowed me to comprehensively document all incident details. Additionally, I incorporated the relevant security controls from NIST SP 800-53 (Revision 4) to guide my incident response activities.
 4. Once the incidents were resolved, I diligently documented my findings, including the steps taken and the analysis performed. I then closed out each incident, indicating its resolution and any necessary follow-up actions. It was crucial for me to ensure compliance with the applicable security controls from NIST SP 800-53 (Revision 4) during the closure process.
 
-## Cost Analysis
+## Balancing Costs and Data Integrity
 ![Lab Cost](https://imgur.com/K0hP21y.png )
 Considerably reducing costs was possible by turning off the VMs nightly. However, this approach would have interrupted traffic ingestion into the logs, impacting data analysis and incident response capabilities.
 
 ## Conclusion
+In this project, I built a honeynet in Microsoft Azure, integrating log sources into a log analytics workspace. Additionally, I deployed Azure Sentinel to generate alerts and incidents using the log data. I measured metrics 24 hours after creating the insecure resources and another 24 hours after implementing security controls. The metric data tables clearly demonstrate a significant decrease in incidents, highlighting the effectiveness of the implemented security controls.
 
+Please note that this project was conducted in a controlled environment, and the results may vary depending on the specific situation and context in which they are applied.
