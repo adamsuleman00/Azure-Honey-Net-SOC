@@ -1,5 +1,5 @@
 # Azure Honeynet Project: Simulating Real-World Cyber Attacks
-[![Cloud Honeynet / SOC](https://i.imgur.com/gM184N6.png "Cloud Honeynet / SOC")](https://i.imgur.com/gM184N6.png "Cloud Honeynet / SOC")
+[![Cloud Honeynet / SOC](https://github.com/asuleman-cyber/Azure-Honey-Net-SOC/blob/main/Cloud%20Honeynet%20%2B%20SOC.png)
 
 ## Introduction
 In this project, I have developed a honeynet in Azure to simulate real-world cyber attacks. By integrating log sources from various resources into a Log Analytics workspace, I leverage Microsoft Sentinel to generate attack maps, trigger alerts, and create incidents. I measured security metrics in an insecure environment for 24 hours, implemented security controls to strengthen the environment, and measured metrics for another 24 hours. The results are presented below, showcasing the metrics obtained.
@@ -15,10 +15,10 @@ The purpose of this initiative was to enhance my knowledge of attacker tactics a
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![Architecture Diagram](https://github.com/asuleman-cyber/Azure-Honey-Net-SOC/blob/main/Insecure%20Architecture.png)
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![Architecture Diagram](https://github.com/asuleman-cyber/Azure-Honey-Net-SOC/blob/main/Secure%20Architecture.png)
 
 ## Environments and Architecture Technologies Used
 - Azure Virtual Network (VNet)
