@@ -77,15 +77,15 @@ Stop Time	 2023-06-15 20:34:21
 | AzureNetworkAnalytics_CL | 0
 
 
-SecurityEvent: Witnessed an outstanding reduction of approximately 74.48%, minimizing potential threats.
+SecurityEvent: Witnessed an reduction of approximately 74.48%, minimizing potential threats.
 
-Syslog: Achieved an exceptional decrease of around 97.33%, ensuring enhanced monitoring and threat detection capabilities.
+Syslog: Achieved an decrease of around 97.33%, ensuring enhanced monitoring and threat detection capabilities.
 
-SecurityAlert: Achieved an astounding 100% decrease, indicating the elimination of alerts through rigorous hardening measures.
+SecurityAlert: Achieved an 100% decrease, indicating the elimination of alerts through rigorous hardening measures.
 
-SecurityIncident: Successfully attained a remarkable 100% decrease, signifying complete prevention of security incidents.
+SecurityIncident: Successfully attained a 100% decrease, signifying complete prevention of security incidents.
 
-AzureNetworkAnalytics_CL: Accomplished a remarkable 100% decrease, eliminating any potential entries and fortifying the network's resilience.
+AzureNetworkAnalytics_CL: Accomplished a 100% decrease, eliminating any potential entries and fortifying the network's resilience.
 
 ## Approach to Handling High-Priority Incidents with NIST Guidelines and Security Controls
 To handle high-priority incidents effectively, I followed the guidelines provided by NIST 800-61 (Revision 2) and implemented the security controls outlined in NIST SP 800-53 (Revision 4). Here's how I approached the process:
